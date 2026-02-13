@@ -1,0 +1,224 @@
+{
+    "id": "completecompendium",
+    "title": "5e Complete Compendium",
+    "description": "This module adds classes, subclasses, and other items missing from the D&D 5e SRD",
+    "version": "0.3.6",
+    "authors": [
+        {
+            "name": "SASPinkPanther"
+        }
+    ],
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13",
+        "maximum": "13"
+    },
+    "url": "https://github.com/xImidasIx/5e-complete-V12",
+    "manifest": "https://github.com/xImidasIx/5e-complete-V12/releases/download/release/module.json",
+    "download": "https://github.com/xImidasIx/5e-complete-V12/releases/download/release/5e-complete-V12.zip",
+    "packs": [
+        {
+            "name": "5e-creatures",
+            "label": "5e Creatures",
+            "system": "dnd5e",
+            "path": "packs/5e-creatures.db",
+            "entity": "Actor",
+            "type": "Actor",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "5e-backgrounds",
+            "label": "5e Backgrounds",
+            "system": "dnd5e",
+            "path": "packs/5e-backgrounds.db",
+            "entity": "Item",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "5e-background-features",
+            "label": "5e Background features",
+            "system": "dnd5e",
+            "path": "packs/5e-background-features.db",
+            "entity": "Item",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "5e-classes",
+            "label": "5e Classes",
+            "system": "dnd5e",
+            "path": "packs/5e-classes.db",
+            "entity": "Item",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "5e-class-features",
+            "label": "5e Class features",
+            "system": "dnd5e",
+            "path": "packs/5e-class-features.db",
+            "entity": "Item",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "5e-creature-abilities",
+            "label": "5e Creature abilities",
+            "system": "dnd5e",
+            "path": "packs/5e-creature-abilities.db",
+            "entity": "Item",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "5e-feats",
+            "label": "5e Feats",
+            "system": "dnd5e",
+            "path": "packs/5e-feats.db",
+            "entity": "Item",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "5e-items",
+            "label": "5e Items",
+            "system": "dnd5e",
+            "path": "packs/5e-items.db",
+            "entity": "Item",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "5e-races",
+            "label": "5e Races",
+            "system": "dnd5e",
+            "path": "packs/5e-races.db",
+            "entity": "Item",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "5e-racial-features",
+            "label": "5e Racial features",
+            "system": "dnd5e",
+            "path": "packs/5e-racial-features.db",
+            "entity": "Item",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "5e-spells",
+            "label": "5e Spells",
+            "system": "dnd5e",
+            "path": "packs/5e-spells.db",
+            "entity": "Item",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "5e-subclasses",
+            "label": "5e Subclasses",
+            "system": "dnd5e",
+            "path": "packs/5e-subclasses.db",
+            "entity": "Item",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "5e-macros",
+            "label": "5e Macros",
+            "system": "dnd5e",
+            "path": "packs/5e-macros.db",
+            "entity": "Macro",
+            "type": "Macro",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "5e-roll-tables",
+            "label": "5e Roll-tables",
+            "system": "dnd5e",
+            "path": "packs/5e-roll-tables.db",
+            "entity": "RollTable",
+            "type": "RollTable",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "5e-trade-goods",
+            "label": "5e Trade goods",
+            "system": "dnd5e",
+            "path": "packs/5e-trade-goods.db",
+            "entity": "Item",
+            "type": "Item",
+            "private": false,
+            "flags": {}
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "D&D5e SRD Extended",
+            "sorting": "m",
+            "color": "#89b4fa",
+            "packs": [],
+            "folders": [
+                {
+                    "name": "Characters",
+                    "sorting": "m",
+                    "color": "#b4befe",
+                    "packs": [
+                        "5e-classes",
+                        "5e-class-features",
+                        "5e-subclasses",
+                        "5e-backgrounds",
+                        "5e-background-features",
+                        "5e-feats",
+                        "5e-races",
+                        "5e-racial-features"
+                    ]
+                },
+                {
+                    "name": "Items & Spells",
+                    "sorting": "m",
+                    "color": "#cba6f7",
+                    "packs": [
+                        "5e-items",
+                        "5e-spells",
+                        "5e-trade-goods"
+                    ]
+                },
+                {
+                    "name": "Creatures",
+                    "sorting": "m",
+                    "color": "#eba0ac",
+                    "packs": [
+                        "5e-creatures",
+                        "5e-creature-abilities"
+                    ]
+                },
+                {
+                    "name": "Tables & Macros",
+                    "sorting": "m",
+                    "color": "#fab387",
+                    "packs": [
+                        "5e-roll-tables",
+                        "5e-macros"
+                    ]
+                }
+            ]
+        }
+    ]
+}
