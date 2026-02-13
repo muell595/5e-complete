@@ -1,5 +1,5 @@
 {
-    "id": "completecompendium",
+    "id": "5e-complete",
     "title": "5e Complete Compendium",
     "description": "This module adds classes, subclasses, and other items missing from the D&D 5e SRD",
     "version": "0.3.6",
@@ -94,6 +94,16 @@
             "path": "packs/5e-items",
             "entity": "Item",
             "type": "Item",
+            "private": false,
+            "flags": {}
+        },
+        {
+            "name": "5e-journals",
+            "label": "5e Journals",
+            "system": "dnd5e",
+            "path": "packs/5e-journals",
+            "entity": "Journal",
+            "type": "Journal",
             "private": false,
             "flags": {}
         },
@@ -215,7 +225,8 @@
                     "color": "#fab387",
                     "packs": [
                         "5e-roll-tables",
-                        "5e-macros"
+                        "5e-macros",
+                        "5e-journals"
                     ]
                 }
             ]
