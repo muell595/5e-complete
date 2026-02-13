@@ -102,8 +102,8 @@
             "label": "5e Journals",
             "system": "dnd5e",
             "path": "packs/5e-journals",
-            "entity": "Journal",
-            "type": "Journal",
+            "entity": "Document",
+            "type": "Document",
             "private": false,
             "flags": {}
         },
