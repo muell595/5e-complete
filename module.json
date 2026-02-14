@@ -11,7 +11,7 @@
     "compatibility": {
         "minimum": "13",
         "verified": "13",
-        "maximum": "13"
+        "maximum": "14"
     },
     "url": "https://github.com/muell595/5e-complete",
     "manifest": "https://github.com/muell595/5e-complete/releases/download/0.1.0/module.json",
